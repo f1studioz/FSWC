@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="10px" height="13px" viewBox="0 0 10 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow32</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02_Landing2" transform="translate(-292.000000, -493.000000)" fill="#417505">
+            <g id="arrow32" transform="translate(297.000000, 501.000000) scale(1, -1) translate(-297.000000, -501.000000) translate(285.000000, 489.000000)">
+                <g id="Group">
+                    <g id="Layer_1" transform="translate(7.000000, 7.000000)">
+                        <path d="M9.707,6.293 C9.316,5.902 8.684,5.902 8.293,6.293 L6,8.586 L6,1 C6,0.448 5.553,0 5,0 C4.447,0 4,0.448 4,1 L4,8.586 L1.707,6.293 C1.316,5.902 0.684,5.902 0.293,6.293 C-0.098,6.684 -0.098,7.316 0.293,7.707 L5,12.414 L9.707,7.707 C10.098,7.316 10.098,6.684 9.707,6.293 L9.707,6.293 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

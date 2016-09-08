@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="186px" height="207px" viewBox="0 0 186 207" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02_Landing2" transform="translate(-795.000000, -185.000000)">
+            <g id="Group-3" transform="translate(795.000000, 187.000000)">
+                <text id="$1.2M" font-family=".SFNSText-Regular, .SF NS Text" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="150" y="204">$1.2M</tspan>
+                </text>
+                <path d="M0,187 L184.470259,187" id="Path-34" stroke="#D0011B" stroke-width="6"></path>
+                <path d="M0,187 L74.0270233,187" id="Path-34" stroke="#7ED321" stroke-width="6"></path>
+                <text id="$100,000" font-family=".SFNSText-Regular, .SF NS Text" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="131" y="20">$100,000</tspan>
+                </text>
+                <text id="$120,000" font-family=".SFNSText-Regular, .SF NS Text" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="129" y="77">$120,000</tspan>
+                </text>
+                <text id="$700,000" font-family=".SFNSText-Regular, .SF NS Text" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="130" y="137">$700,000</tspan>
+                </text>
+                <path d="M0,1 L184.470259,1" id="Path-34" stroke="#F5A623" stroke-width="6"></path>
+                <path d="M0,1 L124.145073,1" id="Path-34" stroke="#7ED321" stroke-width="6"></path>
+                <path d="M0,59 L184.470259,59" id="Path-34" stroke="#F6A623" stroke-width="6"></path>
+                <path d="M0,59 L113.039818,59" id="Path-34" stroke="#7ED321" stroke-width="6"></path>
+                <path d="M0,119 L184.470259,119" id="Path-34" stroke="#D0011B" stroke-width="6"></path>
+                <path d="M0,119 L100,119" id="Path-34" stroke="#7ED321" stroke-width="6"></path>
+            </g>
+        </g>
+    </g>
+</svg>
