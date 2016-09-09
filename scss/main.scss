@@ -229,7 +229,7 @@
                                 border-radius: 5px;
                                 text-align: center;
                                 li {
-                                    width: 24%;
+                                    width: 24.6%;
                                     display: block;
                                     a {
                                         font-size: 13px;
@@ -247,6 +247,9 @@
                                             border-radius: 0px;
                                             background: #aaaaaa;
                                         }
+                                    }
+                                    + li{
+                                        margin-left: 1px;
                                     }
                                 }
                             }
@@ -303,10 +306,10 @@
             }
             &.insights {
                 h2{ margin-top: 30px;
-                    margin-left: 20px;
+                    margin-left: 0px;
                 }
                 .carousel-cont {
-                    padding: 0px 6px;
+                    padding: 0px 0px;
                 }
                 .insight-cont {
                     padding: 0px 15px;
@@ -415,6 +418,24 @@
                     }
                 }
             }
+            &.goal-top-sec{
+                .button{
+                    color:#fff;
+                    background: $base-color;
+                    padding: 8px 25px;
+                    border-radius: 5px;
+                }
+                .goal{
+                    h2{
+                        float: left;
+                    }
+                    .button{
+                        margin-top: 15px;
+                        float: right;
+                    }
+                }
+                
+            }
         }
         /****************************Media****************************/
         
@@ -456,10 +477,7 @@
                             .tabs-cont {
                                 .nav-pills {
                                     li {
-                                        a {
-                                            /* font-size: 11px;
-                                        padding: 3px 4px;*/
-                                        }
+                                        width: 24.5%;
                                     }
                                 }
                             }
