@@ -351,6 +351,7 @@ section {
   header .navbar-default .navbar-nav.navbar-center {
     margin-left: 100px; }
   section.dashboard-top-section .over-wealth-cont {
+    padding-right: 15px;
     margin-bottom: 20px; }
     section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li {
       width: 24.6%; }
