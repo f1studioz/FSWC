@@ -202,7 +202,7 @@ section {
   section.dashboard-top-section .goal-outer h2 {
     margin-bottom: 40px; }
   section.dashboard-top-section .goal-outer .goals-cont {
-    padding: 0px 20px;
+    padding: 0px 60px;
     text-align: left;
     margin-top: 15px; }
     section.dashboard-top-section .goal-outer .goals-cont img {
@@ -214,8 +214,8 @@ section {
       padding-left: 32px;
       color: rgba(0, 0, 0, 0.9); }
       section.dashboard-top-section .goal-outer .goals-cont h4 span {
-        font-size: 14px;
-        color: rgba(0, 0, 0, 0.7); }
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.5); }
     section.dashboard-top-section .goal-outer .goals-cont .graph {
       text-align: right; }
       section.dashboard-top-section .goal-outer .goals-cont .graph .img-responsive {
@@ -238,6 +238,7 @@ section {
     section.insights .insight-cont {
       padding: 0px 2.5px; }
       section.insights .insight-cont .insight-box {
+        border-radius: 5px;
         position: relative;
         border-top: 4px solid #ea6a2a;
         height: 300px;
@@ -302,7 +303,8 @@ section {
             float: left;
             color: rgba(0, 0, 0, 0.6);
             text-transform: uppercase;
-            margin: 0px; }
+            margin: 0px;
+            font-size: 12px; }
           section.insights .insight-cont .insight-box .source img {
             float: right;
             width: 70px;
@@ -391,11 +393,13 @@ section {
           color: rgba(0, 0, 0, 0.6); }
 
 /****************************Media****************************/
-@media screen and (min-width: 1440px) and (max-width: 1500px) {
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
   section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li:last-child a {
     margin-right: -0.4px; }
   section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li:last-child.active a {
-    border-radius: 0px 3px 3px 0px; } }
+    border-radius: 0px 3px 3px 0px; }
+  section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li:last-child:hover {
+    @extends .active; } }
 
 @media (max-width: 1349px) {
   section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li a {
