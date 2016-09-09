@@ -290,6 +290,13 @@
                 .goal-outer {
                     h2 {
                         margin-bottom: 40px;
+                        a{
+                            color: $color;
+                            &:hover{
+                                text-decoration: none;
+                                color: #094c73;
+                            }
+                        }
                     }
                     .goals-cont {
                         padding: 0px 60px;
@@ -456,6 +463,12 @@
                     background: $base-color;
                     padding: 8px 25px;
                     border-radius: 5px;
+                    border:1px solid $base-color;
+                    &:hover{
+                        background: none;
+                        text-decoration: none;
+                        color: $base-color;
+                    }
                 }
                 .goal {
                     h2 {
@@ -589,7 +602,9 @@
                         }
                         .svgImage {
                             margin: 0px 5px;
-                            display: inline-block;
+                            
+                            display: inline;
+                            
                             cursor: pointer;
                             &:hover {
                                 g {
