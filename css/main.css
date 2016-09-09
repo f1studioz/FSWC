@@ -201,6 +201,11 @@ section {
       padding-right: 15px; }
   section.dashboard-top-section .goal-outer h2 {
     margin-bottom: 40px; }
+    section.dashboard-top-section .goal-outer h2 a {
+      color: rgba(0, 0, 0, 0.8); }
+      section.dashboard-top-section .goal-outer h2 a:hover {
+        text-decoration: none;
+        color: #094c73; }
   section.dashboard-top-section .goal-outer .goals-cont {
     padding: 0px 60px;
     text-align: left;
@@ -327,7 +332,12 @@ section {
       color: #fff;
       background: #ea6a2a;
       padding: 8px 25px;
-      border-radius: 5px; }
+      border-radius: 5px;
+      border: 1px solid #ea6a2a; }
+      section.goal-top-sec .button:hover {
+        background: none;
+        text-decoration: none;
+        color: #ea6a2a; }
     section.goal-top-sec .goal h2 {
       float: left; }
     section.goal-top-sec .goal .button {
@@ -430,7 +440,7 @@ section {
         color: rgba(255, 255, 255, 0.9); }
       section.goal-top-sec .insights-recomnd .footer .svgImage {
         margin: 0px 5px;
-        display: inline-block;
+        display: inline;
         cursor: pointer; }
         section.goal-top-sec .insights-recomnd .footer .svgImage:hover g circle {
           fill: #ea6a2a; }
