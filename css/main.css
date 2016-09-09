@@ -369,25 +369,30 @@ section {
         z-index: 1; }
     section.goal-top-sec .goal .goal-graph {
       margin-top: 15px;
-      padding-bottom: 15px; }
+      padding-bottom: 25px; }
       section.goal-top-sec .goal .goal-graph img {
         width: 700px;
         margin: 0 auto; }
     section.goal-top-sec .insights-recomnd .recommendation {
       padding: 15px 25px 0px 30px; }
+      section.goal-top-sec .insights-recomnd .recommendation h5 {
+        color: #ea6a2a;
+        font-size: 14px;
+        font-weight: 600; }
       section.goal-top-sec .insights-recomnd .recommendation .recommend-box {
         border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
-        section.goal-top-sec .insights-recomnd .recommendation .recommend-box h5 {
-          color: #ea6a2a;
-          font-size: 14px;
-          font-weight: 600; }
         section.goal-top-sec .insights-recomnd .recommendation .recommend-box h4 {
           font-size: 15px;
           text-transform: uppercase;
           font-weight: 600;
           margin-top: 20px; }
-        section.goal-top-sec .insights-recomnd .recommendation .recommend-box p {
-          margin-right: 25px; }
+        section.goal-top-sec .insights-recomnd .recommendation .recommend-box a {
+          color: rgba(0, 0, 0, 0.8); }
+          section.goal-top-sec .insights-recomnd .recommendation .recommend-box a p {
+            margin-right: 25px; }
+          section.goal-top-sec .insights-recomnd .recommendation .recommend-box a:hover {
+            text-decoration: none;
+            color: #4793c0; }
         section.goal-top-sec .insights-recomnd .recommendation .recommend-box .button.transparent {
           margin-top: 15px;
           padding: 4px 15px;
@@ -435,14 +440,6 @@ section {
           fill: #fff; }
 
 /****************************Media****************************/
-@media screen and (min-width: 1400px) and (max-width: 1500px) {
-  section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li:last-child a {
-    margin-right: -0.4px; }
-  section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li:last-child.active a {
-    border-radius: 0px 3px 3px 0px; }
-  section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li:last-child:hover {
-    @extends .active; } }
-
 @media (max-width: 1349px) {
   section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li a {
     font-size: 11px;
@@ -506,11 +503,37 @@ section {
         width: auto;
         position: static; } }
 
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+  section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li:last-child a {
+    margin-right: -0.4px; }
+  section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li:last-child.active a {
+    border-radius: 0px 3px 3px 0px; }
+  section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li:last-child:hover {
+    @extends .active; }
+  section.goal-top-sec {
+    padding-bottom: 15px; }
+    section.goal-top-sec .over-wealth {
+      height: 76vh;
+      position: relative; }
+    section.goal-top-sec .insights-recomnd .over-wealth.recommendation {
+      padding-top: 20px; }
+      section.goal-top-sec .insights-recomnd .over-wealth.recommendation h5 {
+        margin-bottom: 40px; } }
+
 @media (min-width: 1600px) {
   header .navbar-default .navbar-nav.navbar-center {
     margin-left: 470px; }
   section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li a {
-    padding: 3px 11px; } }
+    padding: 3px 11px; }
+  .goal-top-sec {
+    padding-bottom: 15px; }
+    .goal-top-sec .over-wealth {
+      height: 76vh !important;
+      position: relative; }
+    .goal-top-sec .insights-recomnd .over-wealth.recommendation {
+      padding-top: 20px; }
+      .goal-top-sec .insights-recomnd .over-wealth.recommendation h5 {
+        margin-bottom: 40px; } }
 
 @media (min-width: 1700px) {
   header .navbar-default .navbar-nav.navbar-center {
