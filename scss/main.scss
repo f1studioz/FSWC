@@ -149,12 +149,12 @@
         }
         
         section {
-            padding: 0px 15px;
+            padding: 0px 24px;
             &.dashboard-top-section {
                 .over-wealth-cont {
                     padding-right: 30px;
                     .over-wealth {
-                        min-height: 435px;
+                        min-height: 351px;
                         background: #fff;
                         border-radius: $border-rad;
                         box-shadow: $shadow;
@@ -257,7 +257,8 @@
                         .tab-content {
                             margin: 20px 0px;
                             img {
-                                width: 650px;
+                                width: 450px;
+                                margin: 0 auto;
                             }
                         }
                       
@@ -268,12 +269,12 @@
                 }
                 .goal-outer {
                     h2 {
-                        margin-bottom: 60px;
+                        margin-bottom: 40px;
                     }
                     .goals-cont {
                         padding: 0px 20px;
                         text-align: left;
-                        margin-top: 25px;
+                        margin-top: 15px;
                         img {
                             float: left;
                             margin-right: 13px;
@@ -305,16 +306,19 @@
                 }
             }
             &.insights {
-                h2{ margin-top: 30px;
-                    margin-left: 0px;
-                }
+                padding: 0px 0px;
+                h2{ margin-top: 15px;
+                    margin-left: 8px;
+                    margin-left: 24px;
+                    margin-bottom: 15px;
+                }    
                 .carousel-cont {
-                    padding: 0px 0px;
+                    padding: 0px 24px 0px 19px;
                 }
                 .insight-cont {
-                    padding: 0px 15px;
+                    padding: 0px 5px;
                     .insight-box {
-                        margin-top: 10px;
+                        
                         position: relative;
                         border-top: 4px solid $base-color;
                         height: 300px;
@@ -364,6 +368,7 @@
                                 margin-top: 60px;
                                 color: #333;
                                 margin-left: 15px;
+                                margin-right: 10px;
                             }
                             &.headline {
                                 p {
@@ -433,6 +438,17 @@
                         margin-top: 15px;
                         float: right;
                     }
+                    .bar-graph{
+                        clear: both;
+                        text-align: center;
+                        h4{
+                            text-transform: uppercase;
+                            font-size: 14px;
+                            strong{
+                                font-weight: 900;
+                            }
+                        }
+                    }
                 }
                 
             }
@@ -459,7 +475,23 @@
                 }
             }
         }
-        
+    @media(max-width:1213px) {
+         section {
+                &.dashboard-top-section {
+                    .over-wealth-cont {
+                        .over-wealth {
+                            .tabs-cont {
+                                .nav-pills {
+                                    li {
+                                        width: 24.5%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    }
         @media(max-width:1199px) {
             header {
                 .navbar-default {
@@ -486,8 +518,10 @@
                 }
             }
         }
-        
-        @media(max-width:1012px) {
+        @media(max-width:1025px) {
+            
+        }
+        @media(max-width:1025px) {
             section {
                 &.dashboard-top-section {
                     .over-wealth-cont {
@@ -496,7 +530,7 @@
                             .tabs-cont {
                                 .nav-pills {
                                     li {
-                                        width: auto;
+                                        width: 23.6%;
                                         a {
                                             font-size: 10px;
                                             padding: 3px 4px;
@@ -528,7 +562,7 @@
                             .tabs-cont {
                                 .nav-pills {
                                     li {
-                                        width: 24%;
+                                        width: 24.6%;
                                         a {
                                             font-size: 13px;
                                             padding: 3px 0px;
