@@ -163,7 +163,7 @@ section {
         border-radius: 5px;
         text-align: center; }
         section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li {
-          width: 24%;
+          width: 24.6%;
           display: block; }
           section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li a {
             font-size: 13px;
@@ -177,6 +177,8 @@ section {
             color: #fff;
             border-radius: 0px;
             background: #aaaaaa; }
+          section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li + li {
+            margin-left: 1px; }
       section.dashboard-top-section .over-wealth-cont .over-wealth .tab-content {
         margin: 20px 0px; }
         section.dashboard-top-section .over-wealth-cont .over-wealth .tab-content img {
@@ -212,9 +214,9 @@ section {
         font-size: 13px; }
   section.insights h2 {
     margin-top: 30px;
-    margin-left: 20px; }
+    margin-left: 0px; }
   section.insights .carousel-cont {
-    padding: 0px 6px; }
+    padding: 0px 0px; }
   section.insights .insight-cont {
     padding: 0px 15px; }
     section.insights .insight-cont .insight-box {
@@ -296,6 +298,16 @@ section {
         border-color: #4a90e2; }
       section.insights .insight-cont .insight-box.yellow {
         border-color: #f5a623; }
+  section.goal-top-sec .button {
+    color: #fff;
+    background: #ea6a2a;
+    padding: 8px 25px;
+    border-radius: 5px; }
+  section.goal-top-sec .goal h2 {
+    float: left; }
+  section.goal-top-sec .goal .button {
+    margin-top: 15px;
+    float: right; }
 
 /****************************Media****************************/
 @media (max-width: 1349px) {
@@ -306,9 +318,8 @@ section {
 @media (max-width: 1199px) {
   header .navbar-default .navbar-nav.navbar-center {
     margin-left: 200px; }
-  section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li a {
-    /* font-size: 11px;
-                                        padding: 3px 4px;*/ } }
+  section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li {
+    width: 24.5%; } }
 
 @media (max-width: 1012px) {
   section.dashboard-top-section .over-wealth-cont {
