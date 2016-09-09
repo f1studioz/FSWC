@@ -447,10 +447,10 @@
             }
             &.goal-top-sec {
                 padding-bottom: 15px;
-                .over-wealth{
-                        height: 660px;
-                        position: relative;
-                    }
+                .over-wealth {
+                    height: 660px;
+                    position: relative;
+                }
                 .button {
                     color: #fff;
                     background: $base-color;
@@ -476,7 +476,7 @@
                                 font-weight: 900;
                             }
                         }
-                        .img-responsive{
+                        .img-responsive {
                             display: inline-block;
                         }
                     }
@@ -491,11 +491,11 @@
                         -moz-border-radius: 5px;
                         border-radius: 0px;
                         font-size: 14px;
-                        color: rgba(0,0,0,0.9);
+                        color: rgba(0, 0, 0, 0.9);
                         &:after {
                             content: "";
                             position: absolute;
-                            top:36px;
+                            top: 36px;
                             left: -15px;
                             border-style: solid;
                             border-width: 10px 15px 10px 0;
@@ -507,32 +507,41 @@
                     }
                     .goal-graph {
                         margin-top: 15px;
-                        padding-bottom: 15px;
-                        img{
+                        padding-bottom: 25px;
+                        img {
                             width: 700px;
-                            margin:0 auto;
+                            margin: 0 auto;
                         }
                     }
                 }
                 .insights-recomnd {
-                    
                     .recommendation {
                         padding: 15px 25px 0px 30px;
+                        h5 {
+                            color: $base-color;
+                            font-size: 14px;
+                            font-weight: 600;
+                        }
                         .recommend-box {
                             border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-                            h5 {
-                                color: $base-color;
-                                font-size: 14px;
-                                font-weight: 600;
-                            }
-                            h4 {
+                             h4 {
                                 font-size: 15px;
                                 text-transform: uppercase;
                                 font-weight: 600;
                                 margin-top: 20px;
+                              
                             }
+                            a{ 
+                                color: rgba(0,0,0,0.8);
+                               
                             p {
                                 margin-right: 25px;
+                                
+                            }
+                                &:hover{
+                                    text-decoration: none;
+                                    color:#4793c0;
+                                }
                             }
                             .button {
                                 &.transparent {
@@ -543,7 +552,7 @@
                                     color: rgba(0, 0, 0, 0.6);
                                     text-transform: uppercase;
                                     border: 1px solid rgba(0, 0, 0, 0.5);
-                                    &:hover{
+                                    &:hover {
                                         background: #094c73;
                                         color: #fff;
                                         text-decoration: none;
@@ -557,84 +566,50 @@
                                 margin-bottom: 15px;
                                 color: rgba(0, 0, 0, 0.6);
                             }
-                            &.last{
+                            &.last {
                                 border-bottom: 0px;
                             }
                         }
                     }
-                    .footer{
+                    .footer {
                         position: absolute;
                         bottom: 0px;
-                        
                         width: 100%;
-                       margin-left: -30px;
-                       margin-right: -25px;
+                        margin-left: -30px;
+                        margin-right: -25px;
                         background: #094c73;
                         padding-top: 20px;
                         border-radius: 0px 0px 5px 5px;
                         box-shadow: $shadow;
                         padding-bottom: 20px;
                         text-align: center;
-                        p{
+                        p {
                             font-size: 14px;
-                            color: rgba(255,255,255,0.9);
+                            color: rgba(255, 255, 255, 0.9);
                         }
-                        
-                            .svgImage{
-                            margin:0px 5px;
+                        .svgImage {
+                            margin: 0px 5px;
                             display: inline-block;
                             cursor: pointer;
-                                &:hover{
-                                    g{
-                                        circle{
-                                            fill:$base-color;
-                                        }
-                                        path{
-                                            fill:#fff;
-                                        }
-                                        polygon{
-                                            fill:#fff;
-                                        }
+                            &:hover {
+                                g {
+                                    circle {
+                                        fill: $base-color;
+                                    }
+                                    path {
+                                        fill: #fff;
+                                    }
+                                    polygon {
+                                        fill: #fff;
                                     }
                                 }
                             }
-                        
+                        }
                     }
                 }
             }
         }
         /****************************Media****************************/
-        
-        @media screen and (min-width: 1400px) and (max-width: 1500px) {
-            section {
-                &.dashboard-top-section {
-                    .over-wealth-cont {
-                        .over-wealth {
-                            .tabs-cont {
-                                .nav-pills {
-                                    li {
-                                        &:last-child {
-                                            a {
-                                                margin-right: -0.4px;
-                                            }
-                                            &.active{
-                                                a{
-                                                border-radius:0px 3px 3px 0px;
-                                                }
-                                            
-                                            }
-                                            &:hover{
-                                                @extends .active; 
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
         
         @media(max-width:1349px) {
             section {
@@ -654,12 +629,12 @@
                         }
                     }
                 }
-                &.goal-top-sec{
-                    .goal{
-                    .bubble{
-                        padding-top: 20px !important;
+                &.goal-top-sec {
+                    .goal {
+                        .bubble {
+                            padding-top: 20px !important;
+                        }
                     }
-                }
                 }
             }
         }
@@ -707,25 +682,27 @@
                     }
                 }
                 &.goal-top-sec {
-                padding-bottom: 15px;
-                .over-wealth{
+                    padding-bottom: 15px;
+                    .over-wealth {
                         height: 710px;
                         position: relative;
                     }
                 }
             }
         }
-@media(max-width:1110px){
-    section{
-         &.goal-top-sec {
-                padding-bottom: 15px;
-                .over-wealth{
+        
+        @media(max-width:1110px) {
+            section {
+                &.goal-top-sec {
+                    padding-bottom: 15px;
+                    .over-wealth {
                         height: 730px;
                         position: relative;
                     }
                 }
-    }
-}
+            }
+        }
+        
         @media(max-width:1025px) {
             section {
                 &.dashboard-top-section {
@@ -747,8 +724,8 @@
                     }
                 }
                 &.goal-top-sec {
-                padding-bottom: 15px;
-                .over-wealth{
+                    padding-bottom: 15px;
+                    .over-wealth {
                         height: 760px;
                         position: relative;
                     }
@@ -787,14 +764,61 @@
                     }
                 }
                 &.goal-top-sec {
-                padding-bottom: 15px;
-                .over-wealth{
+                    padding-bottom: 15px;
+                    .over-wealth {
                         height: auto;
                         position: relative;
-                    .footer{
-                        width: auto;
-                        position: static;
+                        .footer {
+                            width: auto;
+                            position: static;
+                        }
                     }
+                }
+            }
+        }
+        
+        @media screen and (min-width: 1400px) and (max-width: 1500px) {
+            section {
+                &.dashboard-top-section {
+                    .over-wealth-cont {
+                        .over-wealth {
+                            .tabs-cont {
+                                .nav-pills {
+                                    li {
+                                        &:last-child {
+                                            a {
+                                                margin-right: -0.4px;
+                                            }
+                                            &.active {
+                                                a {
+                                                    border-radius: 0px 3px 3px 0px;
+                                                }
+                                            }
+                                            &:hover {
+                                                @extends .active;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &.goal-top-sec {
+                    padding-bottom: 15px;
+                    .over-wealth {
+                        height: 76vh;
+                        position: relative;
+                    }
+                    .insights-recomnd {
+                        .over-wealth {
+                            &.recommendation {
+                                padding-top: 20px;
+                                h5 {
+                                    margin-bottom: 40px;
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -822,6 +846,23 @@
                                         }
                                     }
                                 }
+                            }
+                        }
+                    }
+                }
+            }
+            &.goal-top-sec {
+                padding-bottom: 15px;
+                .over-wealth {
+                    height: 76vh !important;
+                    position: relative;
+                }
+                .insights-recomnd {
+                    .over-wealth {
+                        &.recommendation {
+                            padding-top: 20px;
+                            h5 {
+                                margin-bottom: 40px;
                             }
                         }
                     }
