@@ -3,7 +3,7 @@ body {
   font-family: Helvetca, Lato;
   color: rgba(0, 0, 0, 0.8); }
   body h2 {
-    font-size: 17px;
+    font-size: 15px;
     text-transform: uppercase; }
   body h1 {
     font-weight: bolder;
@@ -14,7 +14,9 @@ header .navbar-default {
   background: #fff;
   border: none;
   box-shadow: 0px 1.5px 5px rgba(0, 0, 0, 0.4);
-  border-radius: 0px; }
+  border-radius: 0px;
+  padding: 0px 5px 0px 15px;
+  margin-bottom: 10px; }
   header .navbar-default .navbar-toggle {
     border: none; }
     header .navbar-default .navbar-toggle:hover {
@@ -98,7 +100,7 @@ header .navbar-default {
 section {
   padding: 0px 24px; }
   section.dashboard-top-section .over-wealth-cont {
-    padding-right: 30px; }
+    padding-right: 25px; }
     section.dashboard-top-section .over-wealth-cont .over-wealth {
       min-height: 351px;
       background: #fff;
@@ -223,7 +225,7 @@ section {
     section.insights .carousel-cont {
       padding: 0px 24px 0px 19px; }
     section.insights .insight-cont {
-      padding: 0px 5px; }
+      padding: 0px 2.5px; }
       section.insights .insight-cont .insight-box {
         position: relative;
         border-top: 4px solid #ea6a2a;
@@ -303,24 +305,79 @@ section {
           border-color: #4a90e2; }
         section.insights .insight-cont .insight-box.yellow {
           border-color: #f5a623; }
-  section.goal-top-sec .button {
-    color: #fff;
-    background: #ea6a2a;
-    padding: 8px 25px;
-    border-radius: 5px; }
-  section.goal-top-sec .goal h2 {
-    float: left; }
-  section.goal-top-sec .goal .button {
-    margin-top: 15px;
-    float: right; }
-  section.goal-top-sec .goal .bar-graph {
-    clear: both;
-    text-align: center; }
-    section.goal-top-sec .goal .bar-graph h4 {
-      text-transform: uppercase;
-      font-size: 14px; }
-      section.goal-top-sec .goal .bar-graph h4 strong {
-        font-weight: 900; }
+  section.goal-top-sec {
+    padding-bottom: 15px; }
+    section.goal-top-sec .button {
+      color: #fff;
+      background: #ea6a2a;
+      padding: 8px 25px;
+      border-radius: 5px; }
+    section.goal-top-sec .goal h2 {
+      float: left; }
+    section.goal-top-sec .goal .button {
+      margin-top: 15px;
+      float: right; }
+    section.goal-top-sec .goal .bar-graph {
+      margin-top: 70px;
+      clear: both;
+      text-align: center; }
+      section.goal-top-sec .goal .bar-graph h4 {
+        text-transform: uppercase;
+        font-size: 14px; }
+        section.goal-top-sec .goal .bar-graph h4 strong {
+          font-weight: 900; }
+    section.goal-top-sec .goal .bubble {
+      position: relative;
+      width: 100%;
+      padding: 20px 25px;
+      text-align: left;
+      background: #B8E986;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 0px; }
+      section.goal-top-sec .goal .bubble:after {
+        content: "";
+        position: absolute;
+        top: 36px;
+        left: -15px;
+        border-style: solid;
+        border-width: 10px 15px 10px 0;
+        border-color: transparent #B8E986;
+        display: block;
+        width: 0;
+        z-index: 1; }
+    section.goal-top-sec .goal .goal-graph {
+      margin-top: 15px;
+      padding-bottom: 15px; }
+    section.goal-top-sec .insights-recomnd .recommendation {
+      padding: 15px 25px 15px 30px; }
+      section.goal-top-sec .insights-recomnd .recommendation .recommend-box {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+        section.goal-top-sec .insights-recomnd .recommendation .recommend-box h5 {
+          color: #ea6a2a;
+          font-size: 14px;
+          font-weight: 600; }
+        section.goal-top-sec .insights-recomnd .recommendation .recommend-box h4 {
+          font-size: 15px;
+          text-transform: uppercase;
+          font-weight: 600;
+          margin-top: 20px; }
+        section.goal-top-sec .insights-recomnd .recommendation .recommend-box p {
+          margin-right: 25px; }
+        section.goal-top-sec .insights-recomnd .recommendation .recommend-box .button.transparent {
+          margin-top: 15px;
+          padding: 4px 15px;
+          background: none;
+          margin-right: 10px;
+          color: rgba(0, 0, 0, 0.6);
+          text-transform: uppercase;
+          border: 1px solid rgba(0, 0, 0, 0.5); }
+        section.goal-top-sec .insights-recomnd .recommendation .recommend-box .nature {
+          text-transform: uppercase;
+          font-size: 12px;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          color: rgba(0, 0, 0, 0.6); }
 
 /****************************Media****************************/
 @media (max-width: 1349px) {
