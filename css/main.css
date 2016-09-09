@@ -25,7 +25,7 @@ header .navbar-default {
     padding: 0px; }
     header .navbar-default .navbar-brand img {
       width: 120px;
-      margin-top: 10px;
+      margin-top: 14px;
       margin-left: 10px; }
   header .navbar-default .navbar-nav.navbar-center {
     margin-left: 370px; }
@@ -320,6 +320,9 @@ section {
           border-color: #f5a623; }
   section.goal-top-sec {
     padding-bottom: 15px; }
+    section.goal-top-sec .over-wealth {
+      height: 660px;
+      position: relative; }
     section.goal-top-sec .button {
       color: #fff;
       background: #ea6a2a;
@@ -339,15 +342,20 @@ section {
         font-size: 14px; }
         section.goal-top-sec .goal .bar-graph h4 strong {
           font-weight: 900; }
+      section.goal-top-sec .goal .bar-graph .img-responsive {
+        display: inline-block; }
     section.goal-top-sec .goal .bubble {
       position: relative;
       width: 100%;
-      padding: 20px 25px;
+      padding: 35px 25px;
+      height: 95px;
       text-align: left;
       background: #B8E986;
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
-      border-radius: 0px; }
+      border-radius: 0px;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.9); }
       section.goal-top-sec .goal .bubble:after {
         content: "";
         position: absolute;
@@ -362,8 +370,11 @@ section {
     section.goal-top-sec .goal .goal-graph {
       margin-top: 15px;
       padding-bottom: 15px; }
+      section.goal-top-sec .goal .goal-graph img {
+        width: 700px;
+        margin: 0 auto; }
     section.goal-top-sec .insights-recomnd .recommendation {
-      padding: 15px 25px 15px 30px; }
+      padding: 15px 25px 0px 30px; }
       section.goal-top-sec .insights-recomnd .recommendation .recommend-box {
         border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
         section.goal-top-sec .insights-recomnd .recommendation .recommend-box h5 {
@@ -385,12 +396,43 @@ section {
           color: rgba(0, 0, 0, 0.6);
           text-transform: uppercase;
           border: 1px solid rgba(0, 0, 0, 0.5); }
+          section.goal-top-sec .insights-recomnd .recommendation .recommend-box .button.transparent:hover {
+            background: #094c73;
+            color: #fff;
+            text-decoration: none; }
         section.goal-top-sec .insights-recomnd .recommendation .recommend-box .nature {
           text-transform: uppercase;
           font-size: 12px;
           margin-top: 15px;
           margin-bottom: 15px;
           color: rgba(0, 0, 0, 0.6); }
+        section.goal-top-sec .insights-recomnd .recommendation .recommend-box.last {
+          border-bottom: 0px; }
+    section.goal-top-sec .insights-recomnd .footer {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      margin-left: -30px;
+      margin-right: -25px;
+      background: #094c73;
+      padding-top: 20px;
+      border-radius: 0px 0px 5px 5px;
+      box-shadow: 0px 1.5px 5px rgba(0, 0, 0, 0.4);
+      padding-bottom: 20px;
+      text-align: center; }
+      section.goal-top-sec .insights-recomnd .footer p {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.9); }
+      section.goal-top-sec .insights-recomnd .footer .svgImage {
+        margin: 0px 5px;
+        display: inline-block;
+        cursor: pointer; }
+        section.goal-top-sec .insights-recomnd .footer .svgImage:hover g circle {
+          fill: #ea6a2a; }
+        section.goal-top-sec .insights-recomnd .footer .svgImage:hover g path {
+          fill: #fff; }
+        section.goal-top-sec .insights-recomnd .footer .svgImage:hover g polygon {
+          fill: #fff; }
 
 /****************************Media****************************/
 @media screen and (min-width: 1400px) and (max-width: 1500px) {
@@ -404,7 +446,9 @@ section {
 @media (max-width: 1349px) {
   section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li a {
     font-size: 11px;
-    padding: 3px 9px; } }
+    padding: 3px 9px; }
+  section.goal-top-sec .goal .bubble {
+    padding-top: 20px !important; } }
 
 @media (max-width: 1213px) {
   section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li {
@@ -414,7 +458,19 @@ section {
   header .navbar-default .navbar-nav.navbar-center {
     margin-left: 200px; }
   section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li {
-    width: 24.5%; } }
+    width: 24.5%; }
+  section.goal-top-sec {
+    padding-bottom: 15px; }
+    section.goal-top-sec .over-wealth {
+      height: 710px;
+      position: relative; } }
+
+@media (max-width: 1110px) {
+  section.goal-top-sec {
+    padding-bottom: 15px; }
+    section.goal-top-sec .over-wealth {
+      height: 730px;
+      position: relative; } }
 
 @media (max-width: 1025px) {
   section.dashboard-top-section .over-wealth-cont {
@@ -423,7 +479,12 @@ section {
       width: 23.6%; }
       section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li a {
         font-size: 10px;
-        padding: 3px 4px; } }
+        padding: 3px 4px; }
+  section.goal-top-sec {
+    padding-bottom: 15px; }
+    section.goal-top-sec .over-wealth {
+      height: 760px;
+      position: relative; } }
 
 @media (max-width: 991px) {
   header .navbar-default .navbar-nav.navbar-center {
@@ -435,7 +496,15 @@ section {
       width: 24.6%; }
       section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li a {
         font-size: 13px;
-        padding: 3px 0px; } }
+        padding: 3px 0px; }
+  section.goal-top-sec {
+    padding-bottom: 15px; }
+    section.goal-top-sec .over-wealth {
+      height: auto;
+      position: relative; }
+      section.goal-top-sec .over-wealth .footer {
+        width: auto;
+        position: static; } }
 
 @media (min-width: 1600px) {
   header .navbar-default .navbar-nav.navbar-center {
