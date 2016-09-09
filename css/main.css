@@ -347,7 +347,7 @@ section {
     section.goal-top-sec .goal .bubble {
       position: relative;
       width: 100%;
-      padding: 35px 25px;
+      padding: 25px 25px;
       height: 95px;
       text-align: left;
       background: #B8E986;
@@ -445,7 +445,7 @@ section {
     font-size: 11px;
     padding: 3px 9px; }
   section.goal-top-sec .goal .bubble {
-    padding-top: 20px !important; } }
+    padding-top: 15px !important; } }
 
 @media (max-width: 1213px) {
   section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li {
@@ -513,7 +513,7 @@ section {
   section.goal-top-sec {
     padding-bottom: 15px; }
     section.goal-top-sec .over-wealth {
-      height: 76vh;
+      height: 700px;
       position: relative; }
     section.goal-top-sec .insights-recomnd .over-wealth.recommendation {
       padding-top: 20px; }
