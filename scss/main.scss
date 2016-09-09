@@ -292,7 +292,7 @@
                         margin-bottom: 40px;
                     }
                     .goals-cont {
-                        padding: 0px 20px;
+                        padding: 0px 60px;
                         text-align: left;
                         margin-top: 15px;
                         img {
@@ -305,8 +305,8 @@
                             padding-left: 32px;
                             color: rgba(0, 0, 0, 0.9);
                             span {
-                                font-size: 14px;
-                                color: rgba(0, 0, 0, 0.7);
+                                font-size: 13px;
+                                color: rgba(0, 0, 0, 0.5);
                             }
                         }
                         .graph {
@@ -339,6 +339,7 @@
                 .insight-cont {
                     padding: 0px 2.5px;
                     .insight-box {
+                        border-radius: $border-rad;
                         position: relative;
                         border-top: 4px solid $base-color;
                         height: 300px;
@@ -420,6 +421,7 @@
                                 color: rgba(0, 0, 0, 0.6);
                                 text-transform: uppercase;
                                 margin: 0px;
+                                font-size: 12px;
                             }
                             img {
                                 float: right;
@@ -542,7 +544,7 @@
         }
         /****************************Media****************************/
         
-        @media screen and (min-width: 1440px) and (max-width: 1500px) {
+        @media screen and (min-width: 1400px) and (max-width: 1500px) {
             section {
                 &.dashboard-top-section {
                     .over-wealth-cont {
@@ -557,7 +559,12 @@
                                             &.active{
                                                 a{
                                                 border-radius:0px 3px 3px 0px;
-                                                }}
+                                                }
+                                            
+                                            }
+                                            &:hover{
+                                                @extends .active; 
+                                            }
                                         }
                                     }
                                 }
