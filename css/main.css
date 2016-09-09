@@ -59,6 +59,13 @@ header .navbar-default {
     padding-bottom: 0px;
     padding-left: 8px;
     padding-right: 8px; }
+    header .navbar-default .navbar-nav.navbar-right li a:hover .svgImage g {
+      fill: #ea6a2a; }
+      header .navbar-default .navbar-nav.navbar-right li a:hover .svgImage g rect {
+        fill: #ea6a2a; }
+    header .navbar-default .navbar-nav.navbar-right li a:hover .svgImage.img-circle {
+      border: 1px solid #ea6a2a;
+      padding: 1px; }
   header .navbar-default .navbar-nav.navbar-right li img {
     width: 23px; }
   header .navbar-default .navbar-nav.navbar-right li:last-child a {
@@ -66,6 +73,10 @@ header .navbar-default {
     padding-left: 10px;
     padding-top: 3px;
     margin-top: 12px; }
+  header .navbar-default .navbar-nav.navbar-right li:last-child .svgImage {
+    width: 23px;
+    height: auto;
+    margin-top: 5px; }
   header .navbar-default .navbar-nav.navbar-right li:nth-child(2) img {
     width: 30px;
     margin-top: -3px; }
@@ -198,7 +209,7 @@ section {
       float: left;
       margin-right: 13px; }
     section.dashboard-top-section .goal-outer .goals-cont h4 {
-      font-size: 18px;
+      font-size: 14px;
       margin-top: 0px;
       padding-left: 32px;
       color: rgba(0, 0, 0, 0.9); }
@@ -380,6 +391,12 @@ section {
           color: rgba(0, 0, 0, 0.6); }
 
 /****************************Media****************************/
+@media screen and (min-width: 1440px) and (max-width: 1500px) {
+  section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li:last-child a {
+    margin-right: -0.4px; }
+  section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li:last-child.active a {
+    border-radius: 0px 3px 3px 0px; } }
+
 @media (max-width: 1349px) {
   section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li a {
     font-size: 11px;
