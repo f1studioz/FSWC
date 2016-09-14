@@ -455,7 +455,7 @@
             &.goal-top-sec {
                 padding-bottom: 15px;
                 .over-wealth {
-                    height: 660px;
+                    height: 700px;
                     position: relative;
                 }
                 .button {
@@ -529,26 +529,36 @@
                 }
                 .insights-recomnd {
                     .recommendation {
-                        padding: 15px 25px 0px 30px;
+                        padding: 15px 0px 0px 0px;
                         h5 {
+                             margin-right: 25px;
+                                 margin-left: 30px;
                             color: $base-color;
                             font-size: 14px;
                             font-weight: 600;
                         }
                         .recommend-box {
-                            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                               clear: both;
+                            .main-img{
+                                height:130px;
+                                width: 100%;
+                            }
                              h4 {
+                                 margin-right: 25px;
+                                 margin-left: 30px;
                                 font-size: 15px;
                                 text-transform: uppercase;
                                 font-weight: 600;
                                 margin-top: 20px;
                               
                             }
-                            a{ 
+                            a{     
                                 color: rgba(0,0,0,0.8);
+                             
                                
-                            p {
-                                margin-right: 25px;
+                            p {margin-right: 25px;
+                                 margin-left: 30px;
+                               
                                 
                             }
                                 &:hover{
@@ -573,11 +583,20 @@
                                 }
                             }
                             .nature {
+                                float: left;
+                                margin-right: 25px;
+                                 margin-left: 30px;
                                 text-transform: uppercase;
                                 font-size: 12px;
                                 margin-top: 15px;
                                 margin-bottom: 15px;
                                 color: rgba(0, 0, 0, 0.6);
+                            }
+                            .source{
+                                width: 60px;
+                                margin-top: 18px;
+                                margin-right: 25px;
+                                float: right;
                             }
                             &.last {
                                 border-bottom: 0px;
@@ -588,14 +607,18 @@
                         position: absolute;
                         bottom: 0px;
                         width: 100%;
-                        margin-left: -30px;
-                        margin-right: -25px;
+                        margin-left: 0px;
+                        margin-right: 0px;
                         background: #094c73;
                         padding-top: 20px;
                         border-radius: 0px 0px 5px 5px;
                         box-shadow: $shadow;
                         padding-bottom: 20px;
                         text-align: center;
+                        img{
+                            display: inline-block;
+                            
+                        }
                         p {
                             font-size: 14px;
                             color: rgba(255, 255, 255, 0.9);
@@ -619,6 +642,78 @@
                                     }
                                 }
                             }
+                        }
+                    }
+                    .chat-section{
+                        height: 680px;
+                        padding: 0px 15px;
+                        
+                        position: relative;
+                        .chat-heading{
+                            float: left;
+                            .img-responsive{
+                                float: left;
+                            }
+                            h4{
+                                float: left;
+                                margin-top: 0px;
+                                margin-left: 10px;
+                                 color: #0b4e75;
+                            font-size: 14px;
+                            font-weight: 600;
+                            }
+                        }
+                        .close-chat{
+                            float: right;
+                            cursor: pointer;
+                        }
+                          .conversation{
+                                clear: both;
+                              margin-right: -15px;
+                              padding-right: 15px;
+                              height: 580px;
+                              overflow-y: auto;
+                              p{
+                                  margin-bottom: 0px;
+                              }
+                              .recieve{
+                                  clear: both;
+                                  padding:10px;
+                                  border-radius: $border-rad;
+                                  background: #eee;
+                                  margin-top: 10px;
+                                  float: left;
+                              }
+                              .send{
+                                  clear: both;
+                                  float: right;
+                                  padding: 10px 20px;
+                                  @extend .recieve;
+                                  background: #c8ddf6;
+                              }
+                            }
+                        .query-form{
+                            background: #fff;
+                            border-top: 1px solid rgba(0,0,0,0.25);
+                            padding: 10px;
+                            clear: both;
+                            position: absolute;
+                            bottom: 0px;
+                            width: 100%;
+                            left: 0px;
+                        .form-control{
+                           width: 89%;
+                            float: left;
+                            border:none;
+                            box-shadow: none;
+                        }
+                        .send{
+                            margin-top: 10px;
+                           
+                            background: none;
+                            border: none;
+                        }
+                          
                         }
                     }
                 }
@@ -653,7 +748,19 @@
                 }
             }
         }
-        
+@media(max-width:1329px) {
+    section{
+         &.goal-top-sec {
+                     .over-wealth {
+                    height:725px;
+                 
+                }
+                    .chat-section{
+                        height: 700px !important;
+                    }
+                }
+    }
+}
         @media(max-width:1213px) {
             section {
                 &.dashboard-top-section {
@@ -699,8 +806,15 @@
                 &.goal-top-sec {
                     padding-bottom: 15px;
                     .over-wealth {
-                        height: 710px;
+                        height: 730px;
                         position: relative;
+                    }
+                    .chat-section{
+                        .query-form{
+                            .form-control{
+                                width:80% !important;
+                            }
+                        }
                     }
                 }
             }
@@ -711,7 +825,7 @@
                 &.goal-top-sec {
                     padding-bottom: 15px;
                     .over-wealth {
-                        height: 730px;
+                        height: 750px;
                         position: relative;
                     }
                 }
@@ -783,9 +897,22 @@
                     .over-wealth {
                         height: auto;
                         position: relative;
+                        .recommend-box{
+                            .main-img{
+                                height: auto !important;
+                            }
+                        }
                         .footer {
+                            clear: both;
                             width: auto;
                             position: static;
+                        }
+                    }
+                    .chat-section{
+                        .query-form{
+                            .form-control{
+                                width:95% !important;
+                            }
                         }
                     }
                 }
@@ -822,7 +949,7 @@
                 &.goal-top-sec {
                     padding-bottom: 15px;
                     .over-wealth {
-                       height:700px;
+                       height:755px;
                         position: relative;
                     }
                     .insights-recomnd {
@@ -833,6 +960,12 @@
                                     margin-bottom: 40px;
                                 }
                             }
+                        }
+                    }
+                    .chat-section{
+                        height: 731px !important;
+                        .conversation{
+                            height: 655px !important;
                         }
                     }
                 }
@@ -865,11 +998,11 @@
                         }
                     }
                 }
-            }
+            
             &.goal-top-sec {
                 padding-bottom: 15px;
                 .over-wealth {
-                    height:690px!important;
+                    height:755px !important;
                     position: relative;
                 }
                 .insights-recomnd {
@@ -882,10 +1015,14 @@
                         }
                     }
                 }
+                .chat-section{
+                    height: 730px !important;
+                }
+            }
             }
         }
         
-        @media(min-width:1700px) {
+        @media(min-width:1680px) {
             header {
                 .navbar-default {
                     .navbar-nav {
@@ -895,6 +1032,7 @@
                     }
                 }
             }
+          
         }
         
         @media(min-width:1900px) {
