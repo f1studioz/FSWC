@@ -1,0 +1,174 @@
+body {
+  background: url("../images/login-banner.jpg");
+  background-size: cover; }
+  body:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    top: 0px;
+    opacity: 0.7;
+    left: 0px;
+    z-index: -1; }
+
+section.login {
+  height: 100vh;
+  color: #fff; }
+  section.login .login-cont {
+    display: table;
+    text-align: center;
+    width: 100%; }
+    section.login .login-cont .login-outer-sec {
+      display: table-cell;
+      vertical-align: middle;
+      margin: 0 auto;
+      height: 100vh; }
+      section.login .login-cont .login-outer-sec .login-sec {
+        padding: 30px 20px;
+        background: #fff;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0px 1.5px 5px rgba(0, 0, 0, 0.4); }
+        section.login .login-cont .login-outer-sec .login-sec .img-responsive {
+          display: inline-block;
+          width: 180px;
+          margin-bottom: 30px; }
+        section.login .login-cont .login-outer-sec .login-sec form {
+          padding: 0px 50px; }
+          section.login .login-cont .login-outer-sec .login-sec form .bootstrap-select .btn-default {
+            border: none;
+            padding-left: 0px;
+            padding-bottom: 0px;
+            background: none;
+            box-shadow: none; }
+            section.login .login-cont .login-outer-sec .login-sec form .bootstrap-select .btn-default span {
+              font-size: 13px;
+              color: #999; }
+            section.login .login-cont .login-outer-sec .login-sec form .bootstrap-select .btn-default:hover {
+              background: none;
+              box-shadow: none; }
+            section.login .login-cont .login-outer-sec .login-sec form .bootstrap-select .btn-default:focus {
+              background: none; }
+          section.login .login-cont .login-outer-sec .login-sec form .bootstrap-select .open {
+            width: 100%; }
+            section.login .login-cont .login-outer-sec .login-sec form .bootstrap-select .open .dropdown-toggle {
+              box-shadow: none !important; }
+              section.login .login-cont .login-outer-sec .login-sec form .bootstrap-select .open .dropdown-toggle.btn-default {
+                background: none;
+                box-shadow: none; }
+            section.login .login-cont .login-outer-sec .login-sec form .bootstrap-select .open .dropdown-menu a:focus {
+              outline: none !important; }
+          section.login .login-cont .login-outer-sec .login-sec form .form-control {
+            position: relative;
+            background: none;
+            border-radius: 0px;
+            border: none;
+            box-shadow: none;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+            margin-top: 25px;
+            padding-left: 30px;
+            font-size: 13px; }
+            section.login .login-cont .login-outer-sec .login-sec form .form-control:focus {
+              box-shadow: none;
+              border-color: #ea6a2a; }
+            section.login .login-cont .login-outer-sec .login-sec form .form-control.btn-orange {
+              font-size: 15px;
+              background: #ea6a2a;
+              border-color: #ea6a2a;
+              border-radius: 10px;
+              height: 40px;
+              color: rgba(255, 255, 255, 0.8); }
+              section.login .login-cont .login-outer-sec .login-sec form .form-control.btn-orange:hover {
+                background: #de733d; }
+          section.login .login-cont .login-outer-sec .login-sec form .check {
+            float: left; }
+            section.login .login-cont .login-outer-sec .login-sec form .check .squaredThree {
+              float: left;
+              width: 20px;
+              margin-left: 5px;
+              position: relative;
+              margin: 0px auto; }
+              section.login .login-cont .login-outer-sec .login-sec form .check .squaredThree label {
+                width: 15px;
+                height: 15px;
+                cursor: pointer;
+                position: absolute;
+                top: 0;
+                left: 0;
+                border: 1px solid rgba(0, 0, 0, 0.2); }
+                section.login .login-cont .login-outer-sec .login-sec form .check .squaredThree label:after {
+                  content: '';
+                  width: 9px;
+                  height: 5px;
+                  position: absolute;
+                  top: 3px;
+                  left: 2px;
+                  border: 2px solid #ea6a2a;
+                  border-top: none;
+                  border-right: none;
+                  background: transparent;
+                  opacity: 0;
+                  transform: rotate(-45deg); }
+                section.login .login-cont .login-outer-sec .login-sec form .check .squaredThree label:hover::after {
+                  opacity: 0.3; }
+              section.login .login-cont .login-outer-sec .login-sec form .check .squaredThree input[type=checkbox] {
+                visibility: hidden; }
+                section.login .login-cont .login-outer-sec .login-sec form .check .squaredThree input[type=checkbox]:checked + label:after {
+                  opacity: 1; }
+          section.login .login-cont .login-outer-sec .login-sec form .content {
+            font-size: 13px;
+            font-family: Lato;
+            color: #93a8ac;
+            float: right;
+            margin-right: 5px; }
+          section.login .login-cont .login-outer-sec .login-sec form a.content:hover {
+            color: #ea6a2a; }
+          section.login .login-cont .login-outer-sec .login-sec form .form-element {
+            position: relative; }
+            section.login .login-cont .login-outer-sec .login-sec form .form-element .form-img {
+              position: absolute;
+              left: 0px;
+              top: 11px; }
+            section.login .login-cont .login-outer-sec .login-sec form .form-element:first-child .form-img {
+              top: 32px; }
+        section.login .login-cont .login-outer-sec .login-sec a {
+          color: #999;
+          text-decoration: none; }
+      section.login .login-cont .login-outer-sec .powered {
+        margin-top: 15px;
+        text-align: center; }
+        section.login .login-cont .login-outer-sec .powered p {
+          color: #93a8ac; }
+        section.login .login-cont .login-outer-sec .powered .img-responsive {
+          display: inline-block;
+          width: 100px; }
+
+@media (max-width: 1240px) {
+  section.login .login-cont .login-outer-sec .login-sec form {
+    padding: 0px 20px; }
+  section.login .login-cont .login-outer-sec .login-sec .content {
+    float: none; } }
+
+@media (max-width: 1199px) {
+  section.login .login-cont .login-outer-sec .login-sec form {
+    padding: 0px 20px; }
+    section.login .login-cont .login-outer-sec .login-sec form .check {
+      float: none;
+      margin: 0px  20px;
+      float: none;
+      margin: 0px  20px; }
+      section.login .login-cont .login-outer-sec .login-sec form .check .squaredThree label {
+        left: 42px; }
+    section.login .login-cont .login-outer-sec .login-sec form .content {
+      float: none; } }
+
+@media (max-width: 991px) {
+  section {
+    padding: 0px 20px; }
+    section.login .login-cont .login-outer-sec .login-sec {
+      padding: 20px 20px; }
+      section.login .login-cont .login-outer-sec .login-sec form .check .squaredThree label {
+        left: 42px; }
+      section.login .login-cont .login-outer-sec .login-sec form .content {
+        float: none; } }
