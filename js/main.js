@@ -1,4 +1,6 @@
 $(document).ready(function(){ 
+    $('.chat-section').hide();
+    
 $('.svgImage').each(function() {
         var $img = jQuery(this);
         var imgID = $img.attr('id');
@@ -26,4 +28,23 @@ $('.svgImage').each(function() {
 
         }, 'xml');
 
-    });});
+    });
+$('.chat-trigger').click(function(e){
+    $('.chat-section').fadeIn(200);
+    e.preventDefault();
+    $('#query').focus();
+    $('.insights-section').fadeOut(200);
+});
+$('.close-chat').click(function(e){
+  $('.chat-section').fadeOut(200);  
+  $('.insights-section').fadeIn(200);  
+});   
+    $('.query-form').submit(function(e){
+       var data=$('#query').val();
+        if(data!=''){
+       $('.conversation').append('<div class="send"><p>'+data+'</p></div>');
+       $('#query').val('');
+        }
+       e.preventDefault();
+    });
+});
