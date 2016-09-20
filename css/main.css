@@ -326,7 +326,7 @@ section {
   section.goal-top-sec {
     padding-bottom: 15px; }
     section.goal-top-sec .over-wealth {
-      height: 700px;
+      height: 595px;
       position: relative; }
     section.goal-top-sec .button {
       color: #fff;
@@ -381,22 +381,20 @@ section {
       margin-top: 15px;
       padding-bottom: 25px; }
       section.goal-top-sec .goal .goal-graph img {
-        width: 700px;
+        width: 600px;
         margin: 0 auto; }
     section.goal-top-sec .insights-recomnd .recommendation {
-      padding: 15px 0px 0px 0px; }
+      padding: 0px 0px 0px 0px; }
       section.goal-top-sec .insights-recomnd .recommendation h5 {
         margin-right: 25px;
         margin-left: 30px;
         color: #ea6a2a;
-        margin-bottom: 30px;
+        margin-bottom: 5px;
         font-size: 14px;
         font-weight: 600; }
       section.goal-top-sec .insights-recomnd .recommendation .recommend-box {
-        clear: both; }
-        section.goal-top-sec .insights-recomnd .recommendation .recommend-box .main-img {
-          height: 130px;
-          width: 100%; }
+        clear: both;
+        padding: 0px 10px; }
         section.goal-top-sec .insights-recomnd .recommendation .recommend-box h4 {
           margin-right: 25px;
           margin-left: 30px;
@@ -431,7 +429,7 @@ section {
           text-transform: uppercase;
           font-size: 12px;
           margin-top: 3px;
-          margin-bottom: 35px;
+          margin-bottom: 10px;
           color: rgba(0, 0, 0, 0.6); }
         section.goal-top-sec .insights-recomnd .recommendation .recommend-box .source {
           width: 60px;
@@ -447,10 +445,10 @@ section {
       margin-left: 0px;
       margin-right: 0px;
       background: #094c73;
-      padding-top: 20px;
+      padding-top: 5px;
       border-radius: 0px 0px 5px 5px;
       box-shadow: 0px 1.5px 5px rgba(0, 0, 0, 0.4);
-      padding-bottom: 20px;
+      padding-bottom: 5px;
       text-align: center; }
       section.goal-top-sec .insights-recomnd .footer img {
         display: inline-block; }
@@ -458,6 +456,7 @@ section {
         display: inline-block;
         margin-left: 10px;
         font-size: 14px;
+        margin-bottom: 0px;
         color: rgba(255, 255, 255, 0.9); }
       section.goal-top-sec .insights-recomnd .footer .svgImage {
         margin: 0px 5px;
@@ -470,11 +469,12 @@ section {
         section.goal-top-sec .insights-recomnd .footer .svgImage:hover g polygon {
           fill: #fff; }
     section.goal-top-sec .insights-recomnd .chat-section {
-      height: 680px;
+      height: 592px;
       padding: 0px 15px;
       position: relative; }
       section.goal-top-sec .insights-recomnd .chat-section .chat-heading {
-        float: left; }
+        float: left;
+        margin-top: 10px; }
         section.goal-top-sec .insights-recomnd .chat-section .chat-heading .img-responsive {
           float: left; }
         section.goal-top-sec .insights-recomnd .chat-section .chat-heading h4 {
@@ -486,6 +486,7 @@ section {
           font-weight: 600; }
       section.goal-top-sec .insights-recomnd .chat-section .close-chat {
         float: right;
+        margin-top: 10px;
         cursor: pointer; }
       section.goal-top-sec .insights-recomnd .chat-section .conversation {
         clear: both;
@@ -536,9 +537,9 @@ section {
 
 @media (max-width: 1329px) {
   section.goal-top-sec .over-wealth {
-    height: 725px; }
+    height: 600px; }
   section.goal-top-sec .chat-section {
-    height: 700px !important; } }
+    height: 596px !important; } }
 
 @media (max-width: 1213px) {
   section.dashboard-top-section .over-wealth-cont .over-wealth .tabs-cont .nav-pills li {
@@ -552,7 +553,7 @@ section {
   section.goal-top-sec {
     padding-bottom: 15px; }
     section.goal-top-sec .over-wealth {
-      height: 730px;
+      height: 600px;
       position: relative; }
     section.goal-top-sec .chat-section .query-form .form-control {
       width: 80% !important; } }
@@ -561,7 +562,7 @@ section {
   section.goal-top-sec {
     padding-bottom: 15px; }
     section.goal-top-sec .over-wealth {
-      height: 750px;
+      height: 600px;
       position: relative; } }
 
 @media (max-width: 1025px) {
@@ -575,7 +576,7 @@ section {
   section.goal-top-sec {
     padding-bottom: 15px; }
     section.goal-top-sec .over-wealth {
-      height: 760px;
+      height: 620px;
       position: relative; } }
 
 @media (max-width: 991px) {
@@ -620,9 +621,20 @@ section {
       section.goal-top-sec .insights-recomnd .over-wealth.recommendation h5 {
         margin-bottom: 25px; }
     section.goal-top-sec .chat-section {
-      height: 731px !important; }
+      height: 636px !important; }
       section.goal-top-sec .chat-section .conversation {
         height: 655px !important; } }
+
+@media screen and (min-width: 1400px) {
+  .goal-top-sec .over-wealth {
+    height: 660px !important;
+    position: relative; }
+  .goal-top-sec .insights-recomnd .over-wealth.recommendation {
+    padding-top: 20px; }
+    .goal-top-sec .insights-recomnd .over-wealth.recommendation h5 {
+      margin-bottom: 25px; }
+    .goal-top-sec .insights-recomnd .over-wealth.recommendation .recommend-box .nature {
+      margin-bottom: 30px; } }
 
 @media (min-width: 1600px) {
   header .navbar-default .navbar-nav.navbar-center {
@@ -632,14 +644,18 @@ section {
   section.goal-top-sec {
     padding-bottom: 15px; }
     section.goal-top-sec .over-wealth {
-      height: 755px !important;
+      height: 721px !important;
       position: relative; }
     section.goal-top-sec .insights-recomnd .over-wealth.recommendation {
       padding-top: 20px; }
       section.goal-top-sec .insights-recomnd .over-wealth.recommendation h5 {
         margin-bottom: 25px; }
+      section.goal-top-sec .insights-recomnd .over-wealth.recommendation .footer {
+        padding: 20px 0px; }
+      section.goal-top-sec .insights-recomnd .over-wealth.recommendation .chat-heading {
+        margin-top: 0px; }
     section.goal-top-sec .chat-section {
-      height: 730px !important; } }
+      height: 695px !important; } }
 
 @media (min-width: 1680px) {
   header .navbar-default .navbar-nav.navbar-center {
