@@ -455,7 +455,7 @@
             &.goal-top-sec {
                 padding-bottom: 15px;
                 .over-wealth {
-                    height: 700px;
+                    height: 595px;
                     position: relative;
                 }
                 .button {
@@ -522,28 +522,27 @@
                         margin-top: 15px;
                         padding-bottom: 25px;
                         img {
-                            width: 700px;
+                            width: 600px;
                             margin: 0 auto;
                         }
                     }
                 }
                 .insights-recomnd {
                     .recommendation {
-                        padding: 15px 0px 0px 0px;
+                        padding: 0px 0px 0px 0px;
                         h5 {
                              margin-right: 25px;
                                  margin-left: 30px;
                             color: $base-color;
-                            margin-bottom: 30px;
+                            margin-bottom:5px;
                             font-size: 14px;
                             font-weight: 600;
                         }
                         .recommend-box {
                                clear: both;
-                            
+                                padding:0px 10px;
                             .main-img{
-                                height:130px;
-                                width: 100%;
+                                
                             }
                              h4 {
                                  margin-right: 25px;
@@ -591,7 +590,7 @@
                                 text-transform: uppercase;
                                 font-size: 12px;
                                 margin-top: 3px;
-                                margin-bottom: 35px;
+                                margin-bottom: 10px;
                                 color: rgba(0, 0, 0, 0.6);
                             }
                             .source{
@@ -612,10 +611,10 @@
                         margin-left: 0px;
                         margin-right: 0px;
                         background: #094c73;
-                        padding-top: 20px;
+                        padding-top: 5px;
                         border-radius: 0px 0px 5px 5px;
                         box-shadow: $shadow;
-                        padding-bottom: 20px;
+                        padding-bottom: 5px;
                         text-align: center;
                         img{
                             display: inline-block;
@@ -624,6 +623,7 @@
                         p {display: inline-block;
                             margin-left: 10px;
                             font-size: 14px;
+                            margin-bottom: 0px;
                             color: rgba(255, 255, 255, 0.9);
                         }
                         .svgImage {
@@ -648,12 +648,13 @@
                         }
                     }
                     .chat-section{
-                        height: 680px;
+                        height:592px;
                         padding: 0px 15px;
                         
                         position: relative;
                         .chat-heading{
                             float: left;
+                            margin-top: 10px;
                             .img-responsive{
                                 float: left;
                             }
@@ -668,6 +669,7 @@
                         }
                         .close-chat{
                             float: right;
+                            margin-top: 10px;
                             cursor: pointer;
                         }
                           .conversation{
@@ -755,11 +757,11 @@
     section{
          &.goal-top-sec {
                      .over-wealth {
-                    height:725px;
+                    height:600px;
                  
                 }
                     .chat-section{
-                        height: 700px !important;
+                        height: 596px !important;
                     }
                 }
     }
@@ -809,7 +811,7 @@
                 &.goal-top-sec {
                     padding-bottom: 15px;
                     .over-wealth {
-                        height: 730px;
+                        height: 600px;
                         position: relative;
                     }
                     .chat-section{
@@ -828,7 +830,7 @@
                 &.goal-top-sec {
                     padding-bottom: 15px;
                     .over-wealth {
-                        height: 750px;
+                        height: 600px;
                         position: relative;
                     }
                 }
@@ -858,7 +860,7 @@
                 &.goal-top-sec {
                     padding-bottom: 15px;
                     .over-wealth {
-                        height: 760px;
+                        height: 620px;
                         position: relative;
                     }
                 }
@@ -966,7 +968,7 @@
                         }
                     }
                     .chat-section{
-                        height: 731px !important;
+                        height: 636px !important;
                         .conversation{
                             height: 655px !important;
                         }
@@ -974,7 +976,31 @@
                 }
             }
         }
-        
+        @media screen and (min-width: 1400px){
+         &.goal-top-sec {
+                    
+                    .over-wealth {
+                       height:660px !important;
+                        position: relative;
+                    }
+                    .insights-recomnd {
+                        .over-wealth {
+                            &.recommendation {
+                                padding-top: 20px;
+                                h5 {
+                                    margin-bottom: 25px;
+                                }
+                                .recommend-box{
+                                    .nature{
+                                        margin-bottom: 30px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+        }
         @media(min-width:1600px) {
             header {
                 .navbar-default {
@@ -1005,7 +1031,7 @@
             &.goal-top-sec {
                 padding-bottom: 15px;
                 .over-wealth {
-                    height:755px !important;
+                    height:721px !important;
                     position: relative;
                 }
                 .insights-recomnd {
@@ -1015,11 +1041,17 @@
                             h5 {
                                 margin-bottom: 25px;
                             }
+                            .footer{
+                                padding:20px 0px;
+                            }
+                            .chat-heading{
+                                margin-top: 0px;
+                            }
                         }
                     }
                 }
                 .chat-section{
-                    height: 730px !important;
+                    height: 695px !important;
                 }
             }
             }
