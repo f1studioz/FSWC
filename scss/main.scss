@@ -5,6 +5,7 @@
         $border-rad:5px;
         $shadow:0px 1.5px 5px rgba(0, 0, 0, 0.4);
         $color:rgba(0, 0, 0, 0.8);
+        html, body{ height: 100%;}
         body {
             background: #eee;
             font-family: $font-stack;
@@ -170,16 +171,24 @@
         }
         
         section {
-            padding: 0px 24px;
+            padding: 0px 24px; height: calc(100% - 450px); min-height: 350px;
             &.dashboard-top-section {
+                > .container-fluid{ height: 100%;
+                    > .row{ height: 100%;
+                        > .over-wealth-cont{ height: 100%;
+                            > .row{ height: 100%;}
+                        }
+                    }
+                }
                 .over-wealth-cont {
                     padding-right: 25px;
                     .over-wealth {
-                        min-height: 351px;
+                        /*min-height: 351px;*/
                         background: #fff;
                         border-radius: $border-rad;
                         box-shadow: $shadow;
                         padding: 0px 20px;
+                        height: 100%;
                         h5 {
                             &.shares {
                                 text-transform: uppercase;
@@ -333,7 +342,7 @@
                 }
             }
             &.insights {
-                padding: 0px 0px;
+                padding: 0px 0px; height: auto;
                 h2 {
                     margin-top: 15px;
                     margin-left: 8px;
@@ -453,7 +462,16 @@
                 }
             }
             &.goal-top-sec {
-                padding-bottom: 15px;
+                padding-bottom: 15px; height: calc(100% - 60px);
+                > .container-fluid{ height: 100%;
+                    > .row{ height: 100%;
+                        > .over-wealth-cont{ height: 100%;
+                            > .row{ height: 100%;
+                                > .over-wealth goal{ height: 100%;}
+                            }
+                        }
+                    }
+                }
                 .over-wealth {
                     height: 595px;
                     position: relative;
@@ -496,8 +514,8 @@
                     .bubble {
                         position: relative;
                         width: 100%;
-                        padding: 25px 25px;
-                        height: 95px;
+                        padding: 15px 25px;
+                        /*height: 95px;*/
                         text-align: left;
                         background: #B8E986;
                         -webkit-border-radius: 5px;
@@ -505,10 +523,12 @@
                         border-radius: 0px;
                         font-size: 14px;
                         color: rgba(0, 0, 0, 0.9);
+                        p{ margin: 0;}
                         &:after {
                             content: "";
                             position: absolute;
-                            top: 36px;
+                            top: 50%;
+                            margin-top: -10px;
                             left: -15px;
                             border-style: solid;
                             border-width: 10px 15px 10px 0;
@@ -522,8 +542,9 @@
                         margin-top: 15px;
                         padding-bottom: 25px;
                         img {
-                            width: 600px;
+                            width: 550px;
                             margin: 0 auto;
+
                         }
                     }
                 }
@@ -550,7 +571,7 @@
                                 font-size: 15px;
                                 text-transform: uppercase;
                                 font-weight: 600;
-                                margin-top: 20px;
+                                margin-top: 10px;
                               
                             }
                             a{     
@@ -589,8 +610,8 @@
                                  margin-left: 30px;
                                 text-transform: uppercase;
                                 font-size: 12px;
-                                margin-top: 3px;
-                                margin-bottom: 10px;
+                                /*margin-top: 3px;*/
+                                margin-bottom: 5px;
                                 color: rgba(0, 0, 0, 0.6);
                             }
                             .source{
@@ -648,7 +669,7 @@
                         }
                     }
                     .chat-section{
-                        height:592px;
+                        height:100%;
                         padding: 0px 15px;
                         
                         position: relative;
@@ -676,7 +697,7 @@
                                 clear: both;
                               margin-right: -15px;
                               padding-right: 15px;
-                              height: 580px;
+                              height: calc(100% - 95px);
                               overflow-y: auto;
                               p{
                                   margin-bottom: 0px;
@@ -703,7 +724,7 @@
                             padding: 10px;
                             clear: both;
                             position: absolute;
-                            bottom: 0px;
+                            bottom: 5px;
                             width: 100%;
                             left: 0px;
                         .form-control{
@@ -811,7 +832,7 @@
                 &.goal-top-sec {
                     padding-bottom: 15px;
                     .over-wealth {
-                        height: 600px;
+                        height: 600px !important;
                         position: relative;
                     }
                     .chat-section{
@@ -830,7 +851,7 @@
                 &.goal-top-sec {
                     padding-bottom: 15px;
                     .over-wealth {
-                        height: 600px;
+                        height: 600px !important;
                         position: relative;
                     }
                 }
@@ -860,7 +881,7 @@
                 &.goal-top-sec {
                     padding-bottom: 15px;
                     .over-wealth {
-                        height: 620px;
+                        height: 620px !important;
                         position: relative;
                     }
                 }
@@ -954,7 +975,7 @@
                 &.goal-top-sec {
                     padding-bottom: 15px;
                     .over-wealth {
-                       height:755px;
+                       height:650px !important;
                         position: relative;
                     }
                     .insights-recomnd {
@@ -977,10 +998,10 @@
             }
         }
         @media screen and (min-width: 1400px){
-         &.goal-top-sec {
+         .goal-top-sec {
                     
                     .over-wealth {
-                       height:660px !important;
+                       /*height:660px !important;*/
                         position: relative;
                     }
                     .insights-recomnd {
@@ -1031,7 +1052,7 @@
             &.goal-top-sec {
                 padding-bottom: 15px;
                 .over-wealth {
-                    height:721px !important;
+                    height:700px !important;
                     position: relative;
                 }
                 .insights-recomnd {
@@ -1051,7 +1072,7 @@
                     }
                 }
                 .chat-section{
-                    height: 695px !important;
+                    height: 680px !important;
                 }
             }
             }
@@ -1081,3 +1102,17 @@
                 }
             }
         }
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #a9a9a9;
+}
